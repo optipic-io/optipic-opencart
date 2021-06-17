@@ -20,6 +20,7 @@ class ModelExtensionModuleOptipic extends Model {
         $settings['exclusions_url'] = $this->config->get('module_optipic_exclusions_url');
         $settings['whitelist_img_urls'] = $this->config->get('module_optipic_whitelist_img_urls');
         $settings['srcset_attrs'] = $this->config->get('module_optipic_srcset_attrs');
+        $settings['cdn_domain'] = $this->config->get('module_optipic_cdn_domain');
         return $settings;
     }
 

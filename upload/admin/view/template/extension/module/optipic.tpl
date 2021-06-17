@@ -72,10 +72,19 @@
                             <textarea id="input-srcset-attrs" name="module_optipic_srcset_attrs" title="<? echo $entry_srcset_attrs_title ?>"><? echo $srcset_attrs ?></textarea>
                         </div>
                     </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="input-cdn-domain"><? echo $entry_cdn_domain ?></label>
+                        <div class="col-sm-10">
+                            <input type="text" id="input-cdn-domain" name="module_optipic_cdn_domain" value="<? echo $cdn_domain ?>">
+                        </div>
+                        <div class="col-sm-12 small" style="margin-top: 10px;">
+                            <? echo $entry_cdn_domain_description ?>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
     </div>
 </div>
-<script src="https://optipic.io/api/cp/stat?domain=<? echo $domain ?>&sid=<? echo $site_id ?>&cms=opencart&stype=cdn&append_to=%23content+.container-fluid+.panel-body&version=1.15.0"></script> 
+<script src="https://optipic.io/api/cp/stat?domain=<? echo $domain ?>&sid=<? echo $site_id ?>&cms=opencart&stype=cdn&append_to=%23content+.container-fluid+.panel-body&version=1.18.0"></script> 
 <?php echo $footer; ?>

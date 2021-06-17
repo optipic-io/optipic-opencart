@@ -15,3 +15,5 @@ $_['entry_whitelist_img_urls']  = 'Replace only URLs of images starting with a m
 $_['entry_whitelist_img_urls_title']  = 'Each on a new line and must begin with a slash (/).';
 $_['entry_srcset_attrs']  = 'List of \'srcset\' attributes';
 $_['entry_srcset_attrs_title']  = 'List of tag attributes in which to replace the srcset-markup of images.';
+$_['entry_cdn_domain']  = 'CDN domain';
+$_['entry_cdn_domain_description']  = 'Domain through which CDN OptiPic will work. You can use your subdomain (img.yourdomain.com, optipic.yourdomain.com, etc.) instead of the standard cdn.optipic.io. To connect your subdomain, contact OptiPic technical support.';

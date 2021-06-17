@@ -74,6 +74,7 @@ class ControllerExtensionModuleOptipic extends Controller {
 
         // Загружаем настройки через метод "модели"
         $settings = $this->model_extension_module_optipic->LoadSettings();
+        
         $data = array();
         $data['autoreplace_active'] = $settings['autoreplace_active'];
         $data['site_id'] = $settings['site_id'];
@@ -81,6 +82,12 @@ class ControllerExtensionModuleOptipic extends Controller {
         $data['exclusions_url'] = $settings['exclusions_url'];
         $data['whitelist_img_urls'] = $settings['whitelist_img_urls'];
         $data['srcset_attrs'] = $settings['srcset_attrs'];
+        
+        $data['cdn_domain'] = $settings['cdn_domain'];
+        if(empty($data['cdn_domain'])) {
+            $data['cdn_domain'] = 'cdn.optipic.io';
+        }
+        
         // Загружаем языковой файл
         $data += $this->load->language('extension/module/optipic');
         // Загружаем "хлебные крошки"
