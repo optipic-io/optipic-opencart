@@ -86,5 +86,5 @@
         </div>
     </div>
 </div>
-<script src="https://optipic.io/api/cp/stat?domain=<?php echo $domain ?>&sid=<?php echo $site_id ?>&cms=opencart&stype=cdn&append_to=%23content+.container-fluid+.panel-body&version=1.20.0"></script> 
+<script src="https://optipic.io/api/cp/stat?domain=<?php echo $domain ?>&sid=<?php echo $site_id ?>&cms=opencart&stype=cdn&append_to=%23content+.container-fluid+.panel-body&version=1.25.0"></script> 
 <?php echo $footer; ?>
