@@ -4,7 +4,9 @@ class ModelExtensionModuleOptipic extends Model {
 
     public function changeContent($content) {
 
-        require_once(DIR_SYSTEM . 'library/optipic/ImgUrlConverter.php');
+        if (class_exists('\optipic\cdn\ImgUrlConverter') == false) {
+            require_once(DIR_SYSTEM . 'library/optipic/ImgUrlConverter.php');
+        }
 
         $settings = $this->getSettings();
 
