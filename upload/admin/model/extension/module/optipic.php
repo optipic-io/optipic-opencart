@@ -6,7 +6,7 @@ class ModelExtensionModuleOptipic extends Model {
         $this->load->model('setting/setting');
         
         $settingsData = $this->request->post;
-        $settingsData['module_optipic_status'] = $settingsData['module_optipic_autoreplace_active'];
+        $settingsData['module_optipic_status'] = (!empty($settingsData['module_optipic_autoreplace_active']))? $settingsData['module_optipic_autoreplace_active']: '';
         
         $this->model_setting_setting->editSetting('module_optipic', $settingsData);
     }
