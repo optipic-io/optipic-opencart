@@ -1,6 +1,10 @@
 # WebP convert images OpenCart in 2 clicks - OptiPic CDN ready plugin
 
-> Fully automated process for converting all png and jpeg images to WebP format to the requirements of Google Pagespeed Insights. Solves the problem 'Serve images in next-gen formats'. Easy connection to OpenCart.
+> Fully automated process for converting all png and jpeg images to WebP format to the requirements of Google Pagespeed Insights.  
+> Solves the problem "Serve images in next-gen formats".  
+> Easy connection to OpenCart. 
+
+[https://optipic.io/en/webp/opencart/](https://optipic.io/en/webp/opencart/)
 
 [![Download](https://optipic.io/images/download-button.png)](https://github.com/optipic-io/optipic-opencart/releases/download/v1.25.0/optipic.ocmod.zip)
 
@@ -33,6 +37,7 @@ If the optimized version is not yet ready at the time of the image request, the 
 [![Video instruction for configuring the module OpenCart](https://img.youtube.com/vi/BfnOdQ5yZrw/0.jpg)](https://www.youtube.com/watch?v=BfnOdQ5yZrw)
 
 ## 5 easy steps to connect WebP to OpenCart
+
 ### Step #1: Download plugin OpenCart WebP
 Download and install the official CDN OptiPic plugin for OpenCart on your site.
 
