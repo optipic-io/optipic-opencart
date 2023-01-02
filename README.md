@@ -4,6 +4,23 @@
 > Solves the problem "Serve images in next-gen formats".  
 > Easy connection to OpenCart. 
 
+<sup>|</sup>
+<sup>[English](https://optipic.io/en/webp/opencart/) | </sup>
+<sup>[Español](https://optipic.io/es/webp/opencart/) | </sup>
+<sup>[Deutsch](https://optipic.io/de/webp/opencart/) | </sup>
+<sup>[Türk](https://optipic.io/tr/webp/opencart/) | </sup>
+<sup>[Français](https://optipic.io/fr/webp/opencart/) | </sup>
+<sup>[Italiano](https://optipic.io/it/webp/opencart/) | </sup>
+<sup>[Português](https://optipic.io/pt/webp/opencart/) | </sup>
+<sup>[Polski](https://optipic.io/pl/webp/opencart/) | </sup>
+<sup>[Čeština](https://optipic.io/cz/webp/opencart/) | </sup>
+<sup>[Русский](https://optipic.io/ru/webp/opencart/) | </sup>
+<sup>[Беларуская](https://optipic.io/by/webp/opencart/) | </sup>
+<sup>[中国](https://optipic.io/cn/webp/opencart/) | </sup>
+<sup>[日本](https://optipic.io/jp/webp/opencart/) | </sup>
+<sup>[বেঙ্গল](https://optipic.io/bn/webp/opencart/) | </sup>
+<sup>[한국인](https://optipic.io/ko/webp/opencart/) | </sup>
+
 [https://optipic.io/en/webp/opencart/](https://optipic.io/en/webp/opencart/)
 
 [![Download](https://optipic.io/images/download-button.png)](https://github.com/optipic-io/optipic-opencart/releases/download/v1.25.0/optipic.ocmod.zip)
